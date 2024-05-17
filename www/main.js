@@ -38,7 +38,7 @@ $(document).ready(function () {
 
     // micbutton click
     $("#MicBtn").click(function () {
-        eel.playAssistantSound()
+        eel.NADIARespos()
         $("#Oval").attr("hidden", true);
         $("#SiriWave").attr("hidden", false);        
         eel.allCommands()()
@@ -47,7 +47,7 @@ $(document).ready(function () {
     function doc_keyUp(e) {
 
         if (e.key === 'n' && e.metaKey){
-            eel.playAssistantSound()
+            eel.NADIARespos()
             $("#Oval").attr("hidden", true);
             $("#SiriWave").attr("hidden", false);        
             eel.allCommands()()
